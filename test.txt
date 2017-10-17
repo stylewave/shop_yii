@@ -1,0 +1,38 @@
+后台的用户密码：
+admin 
+123
+
+前端
+
+imooc_59cc9bfa8cf3c
+59cc9bfa8cf3c
+
+
+推荐一个上传文件到七牛的扩展组件——yii2-qiniu
+
+安装
+
+在composer.json中添加下面的配置
+
+"crazyfd/yii2-qiniu": "dev-master"
+
+然后运行
+
+composer update
+
+
+listen 1016
+<VirtualHost *:1016>
+    DocumentRoot "E:\yii\web"
+   # ServerName wave.jm3.com
+    ServerAlias 
+
+
+  <Directory "E:\yii\web">
+      Options FollowSymLinks ExecCGI
+      AllowOverride All
+      Order allow,deny
+      Allow from all
+      Require all granted
+  </Directory>
+</VirtualHost>
